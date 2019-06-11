@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rahulpwar654.encryptor" >
+
+    /*
+    * Copyright (c) 2018 - 6 - 20. JetSynthesys Pvt. Ltd.
+    * @Rahul Pawar
+    * Unless required by applicable law or agreed to in writing, software
+    * distributed under the License is distributed on an "AS IS" BASIS,
+    *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    */
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+       >
+
+    </application>
+</manifest>
