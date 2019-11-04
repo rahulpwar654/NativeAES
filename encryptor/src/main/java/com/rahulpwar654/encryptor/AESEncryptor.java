@@ -51,10 +51,13 @@ public class AESEncryptor {
 
     public String encryptAES(Context context,String payload){
         byte[] en_bytes=  doAESencrypt(context,payload);
-        String encryptedValue = Base64.encodeToString(en_bytes, Base64.DEFAULT);
-        byte[] decodeBase64=Base64.decode(encryptedValue, Base64.DEFAULT);
-        String decodedString = new String(decodeBase64);
+        //String encryptedValue = Base64.encodeToString(en_bytes, Base64.DEFAULT);
+        //byte[] decodeBase64=Base64.decode(encryptedValue, Base64.DEFAULT);
+        //String decodedString = new String(decodeBase64);
+        String decodedString = new String(en_bytes);
+        //String decodedString2 = new String(en_bytes);
         printlog("ENCRYPTED"," AES decoded  "+decodedString);
+        //printlog("ENCRYPTED"," AES without encode decoded  "+decodedString2);
 
         //base64Cipher+"::"+ivHex+"::"+keyValHex;
         try{
